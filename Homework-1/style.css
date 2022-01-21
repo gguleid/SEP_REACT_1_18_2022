@@ -1,0 +1,77 @@
+body {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  
+}
+
+h2 {
+  text-align: center;
+  color: gray;
+}
+
+input[type='checkbox'] {
+  margin: 0px;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2vh;
+  column-gap: 2vw;
+}
+
+#username {
+
+  width: 147px;
+  display: inline-block;
+}
+
+#button_register {
+  background-color:  #2084be;
+  color: white;
+  font-weight: bold;
+}
+#button_signin {
+  background-color: #4cbb4c;
+  color: white;
+  font-weight: bold;
+}
+
+#checkbox-area {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+a {
+text-decoration: none;
+color: #498fcc;
+}
+
+a:hover {
+color: #000000;
+}
+
+#register-btn {
+  background-color: #428bca;
+  color: white;
+}
+
+#register-btn:active {
+  background-color: #3672a7;
+}
+
